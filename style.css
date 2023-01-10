@@ -1,0 +1,335 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Century Gothic';
+}
+
+.headingPage {
+    width: 100%;
+    height: 840px;
+    position: relative;
+    background: linear-gradient(to right, rgb(244, 249, 226) 60%, white 60% 80%);
+}
+
+#supLogo {
+    height: 650px;
+    width: 950px;
+    position: absolute;
+    top: 15%;
+    right: -5%;
+    transform: rotate(-10deg);
+    border-top-right-radius: 120px;
+    border-top-left-radius: 120px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 120px;
+}
+
+.header {
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header h1 {
+    color: rgb(98, 208, 223);
+}
+
+.header button {
+    background-color: rgb(98, 208, 223);
+    color: whitesmoke;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.header ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.logoBlock {
+    margin-top: 180px;
+    margin-left: 180px;
+    width: 400px;
+}
+
+.logoBlock h4 {
+    color: rgb(98, 208, 223);
+    margin-bottom: 20px;
+}
+
+.logoBlock h1 {
+    color: rgb(34, 53, 111);
+}
+
+.logoBlock p {
+    color: rgb(34, 53, 111);
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-align: justify;
+    font-family: consolas;
+    font-size: 14pt;
+}
+
+.colored {
+    padding: 10px;
+    min-width: 100px;
+    border: none;
+    background-color: orangered;
+    color: whitesmoke;
+}
+
+.noncolored {
+    padding: 10px;
+    min-width: 100px;
+    border: 1px solid orangered;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: orangered;
+}
+
+/*why we*/
+.whyWe {
+    width: 100%;
+    height: 600px;
+    background-color: rgb(98, 208, 223);
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.whyWe img {
+    width: 525px;
+    height: 100%;
+}
+
+.whySupporter {
+    text-align: center;
+    width: 600px;
+    margin: 0 auto;
+}
+
+.whySupporter h1 {
+    margin-bottom: 75px;
+    font-size: 27pt;
+}
+
+.whySupporter p {
+    font-size: 17pt;
+    text-align: justify;
+}
+
+.whySupporter p span {
+    font-weight: 800;
+    font-style: italic;
+}
+
+.aboutUs {
+    width: 100%;
+    height: 450px;
+    background-color: whitesmoke;
+    color: rgb(34, 53, 111);
+}
+
+.aboutFirst {
+    padding-top: 170px;
+    margin-left: 80px;
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    gap: 160px;
+    text-align: justify;
+}
+
+.aboutFirst p {
+    width: 600px;
+}
+
+.aboutSecond {
+    margin-top: 85px;
+    text-align: center;
+}
+
+.catBlock {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 480px 480px;
+}
+
+.item {
+    position: relative;
+}
+
+.item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.item h4 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    font-size: 30pt;
+    color: rgb(255, 255, 255);
+}
+
+/*also know*/
+
+.alsoKnow {
+    background-color: white;
+    color: rgb(34, 53, 111);
+    width: 100%;
+    height: 800px;
+    display: flex;
+    gap: 100px;
+}
+
+.alsoKnow img {
+    width: 480px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.knowText {
+    padding-top: 100px;
+}
+
+.knowText h1 {
+    margin-top: 225px;
+    width: 600px;
+    text-align: justify;
+}
+
+.knowText p {
+    margin-top: 150px;
+    color: orangered;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+/*contact us*/
+.contactUs {
+    width: 100%;
+    height: 800px;
+    background-color: rgb(212, 129, 205);
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.contactUs img {
+    width: 480px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.contactText {
+    padding-top: 100px;
+    margin-left: 120px;
+}
+
+.contactText h1 {
+    margin-top: 205px;
+    margin-bottom: 70px;
+    width: 600px;
+    text-align: justify;
+}
+
+.contactText p {
+    margin-top: 130px;
+    width: 600px;
+    color: rgb(252, 236, 16);
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.contactText h3 {
+    width: 600px;
+    text-align: justify;
+    font-size: 18pt;
+}
+
+/*info*/
+.info {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    color: rgb(34, 53, 111);
+}
+
+.info img {
+    width: 570px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.infoText {
+    width: 100%;
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    line-height: 20px;
+}
+
+.some {
+    width: 350px;
+}
+
+.some p {
+    margin-top: 40px;
+    text-align: justify;
+    color: rgb(39, 112, 141);
+}
+
+.healt {
+    width: 350px;
+}
+
+.healt p:first-of-type {
+    margin-top: 40px;
+    text-align: justify;
+    color: rgb(39, 112, 141);
+}
+
+.healt p span {
+    color: rgb(8, 185, 255);
+}
+
+.office {
+    width: 350px;
+}
+
+.office p:first-of-type {
+    margin-top: 40px;
+}
+
+.office p {
+
+    color: rgb(39, 112, 141);
+}
+
+/*footer*/
+.footer {
+    height: 80px;
+    background-color: rgb(34, 193, 233);
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+}
+
+.footer p {
+    margin-left: 150px;
+    font-weight: 900;
+}
